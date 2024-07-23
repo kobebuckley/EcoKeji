@@ -43,8 +43,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 ## Lambda Functions
 
 - Users need to create their own Lambda functions for certain AWS integrations.
-- Provide example Lambda function code and deployment instructions.
-
+- Refer to any AWS boto specific files and replace with your own Creds ( likely in Lambda if serverless is possible )
 ## Resources
 
 - **Django**: [Django Documentation](https://docs.djangoproject.com/en/stable/)
