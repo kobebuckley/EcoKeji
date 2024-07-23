@@ -26,9 +26,15 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
 ### Current Tasks
 
-1. **Task**: Setup Backend Framework
-   - **Install**: Follow the installation guide at [Django Installation](https://docs.djangoproject.com/en/stable/topics/install/) (Note: Ensure Python 3.12 and virtual environment are set up with `sudo apt install python3.12-venv`). Make sure to have a `.gitignore` file to ignore `.venv/`.
-   - **Quickstart**: Refer to the [Django Quickstart Guide](https://docs.djangoproject.com/en/stable/intro/tutorial01/).
+1. **Task**: Setup Virtual Environment (create isolated Python environments for projects to not affect other projects on your local system)
+   - **Use**: In my case I'm using `python3.12 -m venv venv` then `source venv/bin/activate` for stability to ensure future latest versions do not break anything by updating randomly
+  - **Note** : Going forward, ensure that any installations are being done under the (venv) in your terminal. If you need to exit venv ( you can also jsut use another terminal ) you can type `deactivate`. 
+
+2. **Task**: Setup Backend Framework
+   - **Quickstart**: Refer to the [Django Quickstart Guide](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
+   - **Steps** : 
+   -  come back after installing Django ( I installed the official option ) https://docs.djangoproject.com/en/5.0/topics/install/#installing-official-release `python -m pip install Django`
+
    - **Error Handling**: If you encounter any import errors in VS Code:
      1. Open the Command Palette (Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P on macOS).
      2. Select `Python: Select Interpreter`.
