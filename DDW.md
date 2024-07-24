@@ -41,6 +41,11 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
      3. Choose the Python interpreter from your virtual environment (e.g., `.venv/bin/python`).
      Now the error should be resolved.
 
+# to be formatted correctly later
+
+  3. `django-admin startproject backend_sustainiq`
+  
+
 ## Environment Setup
 
 - Users need to set up their own environment variables for AWS credentials and other configurations.
