@@ -40,6 +40,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 # to be formatted correctly later
 
   3. `django-admin startproject backend_sustainiq`
+  4. changed outer dir name since docs state we can change this "The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like."
 
 
 ## Environment Setup
