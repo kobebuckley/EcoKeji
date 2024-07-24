@@ -1,4 +1,4 @@
-# SustainIQ
+# Sustain IQ
 Smart Solutions for Sustainable Living
 
 SustainIQ is an open-source and SaaS platform that provides comprehensive monitoring, analysis, and automation solutions for green technology applications. The project will evolve, adding new features and functionalities to better serve users interested in sustainable solutions. SustainIQ leverages AWS services for scalability, reliability, and advanced functionalities. However, it is designed to be flexible so that users can adapt it to other cloud services if desired.
