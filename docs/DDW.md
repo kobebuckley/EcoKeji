@@ -24,7 +24,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
 1. **Task**: Setup Virtual Environment (create isolated Python environments for projects to not affect other projects on your local system)
    - **Use**: In my case I'm using `python3.12 -m venv venv` then `source venv/bin/activate` for stability to ensure future latest versions do not break anything by updating randomly
-  - **Note** : Going forward, ensure that any installations are being done under the (venv) in your terminal. If you need to exit venv ( you can also jsut use another terminal ) you can type `deactivate`. If you want to enter Venv again, use `source venv/bin/activate`.
+  - **Note** : Going forward, ensure that any installations are being done under the (venv) in your terminal. If you need to exit venv ( you can also just use another terminal ) you can type `deactivate`. If you want to enter Venv again, use `source venv/bin/activate`.
 
 2. **Task**: Setup Backend Framework
    - **Quickstart**: Refer to the [Django Quickstart Guide](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
@@ -41,7 +41,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
   3. `django-admin startproject backend_sustainiq`
   4. changed outer dir name since docs state we can change this "The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like."
-  5. Now we confirm that django is working correctly: `cd backend` then `python manage.py runserver`.
+  5. Now we confirm that django is working correctly: `cd backend` then `python manage.py runserver`. ![Working Example](images/django.png)
 
 
 ## Environment Setup
