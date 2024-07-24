@@ -12,4 +12,4 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 - Create a to-do list with detailed steps and research findings.
 - Develop a project incrementally, reflecting on and learning from each step.
 
-For more detailed documentation, please refer to the [Documented Development Workflow (DDW) file](DDW.md).
+For more detailed documentation, please refer to the [Documented Development Workflow (DDW) file](docs/DDW.md).

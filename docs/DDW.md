@@ -41,6 +41,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
   3. `django-admin startproject backend_sustainiq`
   4. changed outer dir name since docs state we can change this "The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like."
+  5. Now we confirm that django is working correctly: `cd backend` then `python manage.py runserver`.
 
 
 ## Environment Setup
