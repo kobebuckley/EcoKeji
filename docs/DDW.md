@@ -11,7 +11,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
 ## Project Overview
 
-- **Project Name**: SustainIQ
+- **Project Name**: EcoKeji
 - **Description**: A platform for monitoring, analyzing, and automating green technology applications.
 - **Technologies Used**: Python, Django, Next.js
 ## Dependencies
@@ -39,14 +39,14 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
 # to be formatted correctly later
 
-  3. `django-admin startproject backend_sustainiq`
+  3. `django-admin startproject backend_EcoKeji`
   4. changed outer dir name since docs state we can change this "The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like."
   5. Now we confirm that django is working correctly: `cd backend` then `python manage.py runserver`. 
   
   ![Working Example](images/django.png)
 
   6. Following along tutorial example to learn Django ( later on can we will delete Polls and make our first of many apps (Weather Data Logger) ) `python manage.py startapp polls`
-  7. Following these instructions ( https://docs.djangoproject.com/en/5.0/intro/tutorial01/#write-your-first-view ), When we do the Global url that would be inside (backend_sustainiq) AKA the inner 'mysite'.
+  7. Following these instructions ( https://docs.djangoproject.com/en/5.0/intro/tutorial01/#write-your-first-view ), When we do the Global url that would be inside (backend_EcoKeji) AKA the inner 'mysite'.
 
 ## Environment Setup
 

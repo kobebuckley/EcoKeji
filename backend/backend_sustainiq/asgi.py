@@ -1,5 +1,5 @@
 """
-ASGI config for backend_sustainiq project.
+ASGI config for backend_EcoKeji project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend_sustainiq.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend_EcoKeji.settings')
 
 application = get_asgi_application()
