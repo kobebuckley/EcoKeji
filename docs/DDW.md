@@ -46,6 +46,7 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
   ![Working Example](images/django.png)
 
   6. Following along tutorial example to learn Django ( later on can we will delete Polls and make our first of many apps (Weather Data Logger) ) `python manage.py startapp polls`
+  7. Following these instructions ( https://docs.djangoproject.com/en/5.0/intro/tutorial01/#write-your-first-view ), When we do the Global url that would be inside (backend_sustainiq) AKA the inner 'mysite'.
 
 ## Environment Setup
 
