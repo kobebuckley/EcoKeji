@@ -47,6 +47,8 @@ The Documented Development Workflow (DDW) is a method designed to help beginner 
 
   6. Following along tutorial example to learn Django ( later on can we will delete Polls and make our first of many apps (Weather Data Logger) ) `python manage.py startapp polls`
   7. Following these instructions ( https://docs.djangoproject.com/en/5.0/intro/tutorial01/#write-your-first-view ), When we do the Global url that would be inside (backend_EcoKeji) AKA the inner 'mysite'.
+  8. Note: If your Venv is missing, you may need to re add `python3.12 -m venv venv` then `source venv/bin/activate`. Then do `pip install -r requirements.txt`
+
 
 ## Environment Setup
 
